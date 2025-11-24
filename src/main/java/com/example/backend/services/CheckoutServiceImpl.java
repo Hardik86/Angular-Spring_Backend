@@ -17,7 +17,8 @@ public class CheckoutServiceImpl implements CheckoutService {
     private final CartRepository cartRepository;
 
     @Autowired
-    public CheckoutServiceImpl(CartRepository cartRepository) {
+    public CheckoutServiceImpl(CartRepository cartRepository)
+    {
         this.cartRepository = cartRepository;
     }
 
